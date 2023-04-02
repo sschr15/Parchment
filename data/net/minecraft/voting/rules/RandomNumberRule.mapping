@@ -1,0 +1,3 @@
+CLASS net/minecraft/voting/rules/RandomNumberRule
+	METHOD valueDescription (Ljava/lang/Number;)Lnet/minecraft/network/chat/Component;
+		ARG 1 i

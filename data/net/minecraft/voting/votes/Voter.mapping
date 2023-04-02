@@ -1,0 +1,5 @@
+CLASS net/minecraft/voting/votes/Voter
+	METHOD update (Lnet/minecraft/voting/votes/Voter;Lnet/minecraft/network/chat/Component;I)Lnet/minecraft/voting/votes/Voter;
+		ARG 0 voter
+		ARG 1 component
+		ARG 2 countChange

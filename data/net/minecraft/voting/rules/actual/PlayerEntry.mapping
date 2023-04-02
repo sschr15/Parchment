@@ -1,0 +1,3 @@
+CLASS net/minecraft/voting/rules/actual/PlayerEntry
+	METHOD from (Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/voting/rules/actual/PlayerEntry;
+		ARG 0 serverPlayer

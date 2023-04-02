@@ -1,0 +1,8 @@
+CLASS net/minecraft/voting/rules/RuleChange
+	METHOD apply (Lnet/minecraft/voting/rules/RuleAction;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 action
+		ARG 2 server
+	METHOD description (Lnet/minecraft/voting/rules/RuleAction;)Lnet/minecraft/network/chat/Component;
+		ARG 1 action
+	METHOD update (Lnet/minecraft/voting/rules/RuleAction;)V
+		ARG 1 action

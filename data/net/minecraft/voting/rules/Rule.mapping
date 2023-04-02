@@ -1,0 +1,5 @@
+CLASS net/minecraft/voting/rules/Rule
+	METHOD randomApprovableChanges (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/util/RandomSource;I)Ljava/util/stream/Stream;
+		ARG 1 server
+		ARG 2 random
+		ARG 3 count

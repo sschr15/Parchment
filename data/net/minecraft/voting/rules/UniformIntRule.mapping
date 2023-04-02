@@ -1,0 +1,21 @@
+CLASS net/minecraft/voting/rules/UniformIntRule
+	METHOD <init> (Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/util/valueproviders/UniformInt;)V
+		ARG 1 minValue
+		ARG 2 span
+		ARG 3 defaultValue
+	METHOD lambda$new$0 (Lnet/minecraft/util/valueproviders/UniformInt;)Lnet/minecraft/voting/rules/UniformIntRule$Change;
+		ARG 1 range
+	METHOD lambda$new$1 (Lnet/minecraft/voting/rules/UniformIntRule$Change;)Lnet/minecraft/util/valueproviders/UniformInt;
+		ARG 0 change
+	METHOD lambda$randomApprovableChanges$3 (Lnet/minecraft/util/valueproviders/UniformInt;)Lnet/minecraft/voting/rules/RuleChange;
+		ARG 1 range
+	METHOD rangeToComponent (Lnet/minecraft/util/valueproviders/UniformInt;)Lnet/minecraft/network/chat/Component;
+		ARG 0 range
+	METHOD rangeToComponent (Lnet/minecraft/util/valueproviders/UniformInt;Ljava/util/function/IntFunction;)Lnet/minecraft/network/chat/Component;
+		ARG 0 range
+		ARG 1 toString
+	METHOD valueDescription (Lnet/minecraft/util/valueproviders/UniformInt;)Lnet/minecraft/network/chat/Component;
+		ARG 1 provider
+	CLASS Change
+		METHOD <init> (Lnet/minecraft/voting/rules/UniformIntRule;Lnet/minecraft/util/valueproviders/UniformInt;)V
+			ARG 2 range

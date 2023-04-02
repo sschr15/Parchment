@@ -1,0 +1,3 @@
+CLASS net/minecraft/voting/rules/ResourceKeySetRule
+	METHOD description (Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;
+		ARG 1 component

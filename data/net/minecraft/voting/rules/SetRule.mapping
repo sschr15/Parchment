@@ -1,0 +1,21 @@
+CLASS net/minecraft/voting/rules/SetRule
+	METHOD add (Ljava/lang/Object;)Z
+		ARG 1 entry
+	METHOD applyEffect (Lnet/minecraft/voting/rules/RuleAction;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 action
+		ARG 2 server
+	METHOD contains (Ljava/lang/Object;)Z
+		ARG 1 entry
+	METHOD description (Ljava/lang/Object;)Lnet/minecraft/network/chat/Component;
+		ARG 1 entry
+	METHOD lambda$approvedChanges$0 (Ljava/lang/Object;)Lnet/minecraft/voting/rules/RuleChange;
+		ARG 1 entry
+	METHOD lambda$codec$1 (Ljava/lang/Object;)Lnet/minecraft/voting/rules/SetRule$SetRuleChange;
+		ARG 1 entry
+	METHOD lambda$codec$2 (Lnet/minecraft/voting/rules/SetRule$SetRuleChange;)Ljava/lang/Object;
+		ARG 0 change
+	METHOD remove (Ljava/lang/Object;)Z
+		ARG 1 entry
+	CLASS SetRuleChange
+		METHOD <init> (Lnet/minecraft/voting/rules/SetRule;Ljava/lang/Object;)V
+			ARG 2 target

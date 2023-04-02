@@ -1,0 +1,16 @@
+CLASS net/minecraft/voting/rules/Rules
+	METHOD bootstrap (Lnet/minecraft/core/Registry;)Lnet/minecraft/voting/rules/Rule;
+		ARG 0 registry
+	METHOD flattenedPercents (I)Lnet/minecraft/util/valueproviders/ClampedInt;
+		ARG 0 range
+	METHOD getRandomRule (Lnet/minecraft/util/RandomSource;)Lnet/minecraft/core/Holder$Reference;
+		ARG 0 random
+	METHOD getRandomRuleUnweighted (Lnet/minecraft/util/RandomSource;)Lnet/minecraft/core/Holder$Reference;
+		ARG 0 random
+	METHOD register (Ljava/lang/String;ILnet/minecraft/voting/rules/Rule;)Lnet/minecraft/voting/rules/Rule;
+		ARG 0 id
+		ARG 1 rarity
+		ARG 2 rule
+	CLASS 29
+		METHOD lambda$add$0 (Lnet/minecraft/voting/rules/Rules$29;Lnet/minecraft/voting/rules/actual/PlayerEntry;)V
+			ARG 1 e

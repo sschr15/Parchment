@@ -33,7 +33,7 @@ writtenbooks {
 }
 
 compass {
-    version = '1.19.3'
+    version = '23w13a_or_b'
 }
 
 repositories {
@@ -44,6 +44,14 @@ repositories {
     maven {
         name = 'FabricMC'
         url = 'https://maven.fabricmc.net/'
+    }
+    maven {
+        name = 'QuiltMC'
+        url = 'https://maven.quiltmc.org/repository/release/'
+    }
+    maven {
+        name = 'QuiltMC (snapshot)'
+        url = 'https://maven.quiltmc.org/repository/snapshot/'
     }
 }
 
@@ -60,7 +68,7 @@ dependencies {
     remapper 'net.minecraftforge:ForgeAutoRenamingTool:0.1.24'
 
     // Enigma, pretty interface for editing mappings
-    enigma 'cuchaz:enigma-swing:2.2.0'
+    enigma 'org.quiltmc:enigma-swing:1.7.3'
 }
 
 afterEvaluate {
